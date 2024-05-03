@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <section id="home-page">
+        <h1>BRIAN'S ARCADE</h1>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <a href="./flappybird-game/flappy-bird.html">
+                    <!-- Generated using DALL-E -->
+                    <img src="./flappybird-pictures/flappy-bird-slide.png" style="width:100%">
+                    <div class="game-name">Flappy Bird</div>
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="./doodlejump-game/doodle.html"> 
+                    <!-- https://www.deviantart.com/crvnjava67/art/Doodle-Jump-Wallpaper-724656900 -->
+                    <img src="./doodlejump-pictures/doodle-slide.png" style="width:100%">
+                    <div class="game-name">Doodle Jump</div>
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="./chess-game/chess.html">
+                    <!-- Generated using DALL-E -->
+                    <img src="./chess-pictures/chess-slide.png" style="width:100%">
+                    <div class="game-name">Chess</div>
+                </a>
+            </div> 
+            
+            <!-- Arrows to switch from slides -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <hr class="divider">
+
+        <div class="game-links">
+            <a href="./flappybird-game/flappy-bird.html" class="game-box">
+                <!-- Generated using DALL-E -->
+                <img src="./flappybird-pictures/flappbird-cover.png" alt="Flappy Bird">
+                <p>Flappy Bird</p>
+            </a>
+            <a href="./doodlejump-game/doodle.html" class="game-box">
+                <!-- Original doodle jump photo: https://apps.apple.com/us/app/doodle-jump/id307727765 -->
+                <img src="./doodlejump-pictures/doodle-cover.png" alt="Doodle Jump">
+                <p>Doodle Jump</p>
+            </a>
+            <a href="./chess-game/chess.html" class="game-box">
+                <!-- Generated using DALL-E -->
+                <img src="./chess-pictures/chess-cover.png" alt="Tetris">
+                <p>Chess</p>
+            </a>
+        </div>
+        
+    </section>
+</body>
+</html>
