@@ -47,16 +47,16 @@ window.onload = function() {
 
     // Load bird image and display it
     birdImg = new Image();
-    birdImg.src = "/flappybird-pictures/flappybird.png";
+    birdImg.src = "../flappybird-pictures/flappybird.png";
     birdImg.onload = function() {
         ctx.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
     }
 
     // Load images for the pipes
     flappyBirdPipeTop = new Image();
-    flappyBirdPipeTop.src = "/flappybird-pictures/flappybird-top.png";
+    flappyBirdPipeTop.src = "../flappybird-pictures/flappybird-top.png";
     flappyBirdPipeBottom = new Image();
-    flappyBirdPipeBottom.src = "/flappybird-pictures/flappybird-bottom.png";
+    flappyBirdPipeBottom.src = "../flappybird-pictures/flappybird-bottom.png";
 
     // Display initial instructions
     ctx.fillStyle = "white";
