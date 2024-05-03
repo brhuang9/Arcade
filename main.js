@@ -50,8 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
-
 // home page
 document.addEventListener('DOMContentLoaded', function() {
     showSlides(slideIndex);

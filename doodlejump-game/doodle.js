@@ -284,6 +284,5 @@ function resetGame() {
 
 // Add touch listener to move the doodle on touch devices
 document.addEventListener("touchstart", function(e) {
-    e.preventDefault();
     moveDoodle({ code: "Space" }); 
 });
